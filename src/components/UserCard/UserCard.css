@@ -1,0 +1,35 @@
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: gainsboro;
+  margin: 0.3em;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.card:hover {
+  box-shadow: 10px 10px 10px black;
+  cursor: pointer;
+}
+
+.user-card {
+  background-color: lightgray;
+}
+
+.user-card > * {
+  display: block;
+}
+.user-card img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.user-tags-scroll {
+  display: inline-block;
+  height: auto;
+  max-height: 130px;
+  overflow: auto;
+}

@@ -1,0 +1,14 @@
+.zoomable-image {
+  display: inline-block;
+  width: 50%;
+  height: 90%;
+  background-color: white;
+  position: absolute;
+  margin: 1em;
+  left: 0;
+}
+.zoomable-image img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 25px;
+}

@@ -1,0 +1,9 @@
+.user-view {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0.3em;
+  grid-row-gap: 0.5em;
+}
+.user-view > * {
+  margin: 0 auto;
+}

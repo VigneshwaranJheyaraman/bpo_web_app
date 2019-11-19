@@ -1,0 +1,25 @@
+.user-info-item > * {
+  display: inline-block;
+  margin: 1em 1.5em;
+  font-size: 1.2em;
+}
+.user-info-item-title {
+  text-align: left;
+}
+.user-info-item > input {
+  text-align: center;
+  width: 60%;
+  height: 1.5em;
+  border: none;
+  background-color: transparent;
+}
+.user-info-item > input:hover,
+input:focus {
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.user-info-item > input:focus {
+  outline: none;
+}

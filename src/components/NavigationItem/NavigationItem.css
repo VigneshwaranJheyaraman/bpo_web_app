@@ -1,0 +1,30 @@
+.nav-item {
+  width: inherit;
+  display: inline-flex;
+  float: left;
+  border: 1px double gray;
+  margin: 0 0.3em;
+}
+.nav-item:hover {
+  cursor: pointer;
+  background-color: slategray;
+}
+.active {
+  border-bottom: 5px solid black;
+}
+.nav-item > * {
+  margin: auto;
+}
+.nav-item img {
+  width: 32px;
+  height: 32px;
+  border-radius: 25px;
+  margin-right: 0;
+}
+.nav-title {
+  padding: 0 10px;
+  font-size: 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 0;
+}

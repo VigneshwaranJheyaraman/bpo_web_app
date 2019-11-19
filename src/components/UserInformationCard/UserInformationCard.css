@@ -1,0 +1,29 @@
+.user-head > * {
+  transition: all 0.6s;
+}
+.user-head {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-gap: 0.5em;
+  height: auto;
+  border: 1px solid lightgray;
+  box-shadow: 10px 10px 15px whitesmoke;
+  margin: 0.5em auto;
+  border-radius: 15px;
+  position: relative;
+}
+.user-head img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 25px;
+  display: inline-block;
+}
+.user-head img:hover {
+  cursor: crosshair;
+  box-shadow: 10px 10px 10px lightgrey;
+  transform: translateY(-10px);
+}
+.user-info {
+  display: inline-block;
+}
