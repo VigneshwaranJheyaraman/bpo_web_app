@@ -9,3 +9,24 @@
 .user-view > * {
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .user-view {
+    grid-template-columns: auto auto auto;
+    grid-gap: 1em;
+    grid-row-gap: 1em;
+  }
+  .user-view > * {
+    margin: 0.5em auto;
+  }
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .user-view {
+    grid-template-columns: auto;
+    grid-row-gap: 1.5em;
+    grid-gap: 1em;
+  }
+  .user-view > * {
+    margin: auto !important;
+  }
+}
