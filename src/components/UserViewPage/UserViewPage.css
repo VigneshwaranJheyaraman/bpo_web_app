@@ -1,8 +1,10 @@
 .user-view {
+  overflow: auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 0.3em;
   grid-row-gap: 0.5em;
+  margin: 0.5em auto;
 }
 .user-view > * {
   margin: 0 auto;

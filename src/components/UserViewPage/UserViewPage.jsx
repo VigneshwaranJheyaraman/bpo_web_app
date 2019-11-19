@@ -3,6 +3,7 @@ import "./UserViewPage.css";
 import { getter } from "../../network";
 import UserCard from "../UserCard/UserCard";
 import { LoaderHOC } from "../../LoaderHOC";
+import { withNavigationBarComponent } from "../../NavigationBarHOC";
 
 class UserViewPage extends Component {
   constructor(props) {
@@ -103,4 +104,4 @@ class UserViewPage extends Component {
   }
 }
 
-export default LoaderHOC(UserViewPage);
+export default LoaderHOC(withNavigationBarComponent(UserViewPage));
